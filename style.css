@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(77, 73, 73);
+  box-sizing: content-box;
+}
+.col {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group-text {
+  background-color: lime;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bolder;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+  color: white;
+}
+.input-group {
+  width: 31.3rem;
+  height: 4.5rem;
+}
+.form-control {
+  font-weight: bold;
+}
+#address {
+  width: 31.3rem;
+  height: 15rem;
+  font-size: 1.4rem;
+  resize: none;
+}
+
+.form-label {
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+}
