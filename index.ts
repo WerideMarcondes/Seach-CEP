@@ -7,7 +7,7 @@ $(document).ready(function () {
  
 const seach_Cep = async () =>{
     const cep = (<HTMLInputElement>document.getElementById("cep")).value
-    const url = `http://viacep.com.br/ws/${cep}/json/`;
+    const url = `http:.//viacep.com.br/ws/${cep}./json/`;
     const dados = await fetch(url);
     const address = await dados.json();
     
