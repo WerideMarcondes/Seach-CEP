@@ -15,7 +15,7 @@ $(document).ready(function () {
 });
 const seach_Cep = () => __awaiter(void 0, void 0, void 0, function* () {
     const cep = document.getElementById("cep").value;
-    const url = `http://viacep.com.br/ws/${cep}/json/`;
+    const url = `http:.//viacep.com.br/ws/${cep}./json/`;
     const dados = yield fetch(url);
     const address = yield dados.json();
     let result = document.getElementById("address").innerHTML = "Neighborhood: " + address.bairro + "\n"
