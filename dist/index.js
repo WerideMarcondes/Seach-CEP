@@ -33,6 +33,7 @@ const erro_cep = () => {
     let resto = cont - cep.length;
     if (cep.length < 9 && cep.length > 0) {
         document.getElementById("address").innerHTML = 'Number incomplete zip code, enter another ' + " " + resto + ' Number';
+        console.log(resto);
     }
 };
 /*buscar endereço*/
