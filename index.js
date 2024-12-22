@@ -46,7 +46,7 @@ var seach_Cep = function () { return __awaiter(_this, void 0, void 0, function (
         switch (_a.label) {
             case 0:
                 cep = document.getElementById("cep").value;
-                url = "http://viacep.com.br/ws/".concat(cep, "/json/");
+                url = "http:.//viacep.com.br/ws/".concat(cep, "/json/");
                 return [4 /*yield*/, fetch(url)];
             case 1:
                 dados = _a.sent();
